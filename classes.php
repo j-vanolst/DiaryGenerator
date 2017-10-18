@@ -12,7 +12,7 @@ class Day
     }
     function __toString()
     {
-        return $this->year_number . $this->month . $this->day . $this->day_number . $this->event;
+        return $this->year_number . "," . $this->month . "," . $this->day . "," .  $this->day_number . "," . $this->event;
     }
 }
 class Month
